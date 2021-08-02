@@ -26,3 +26,8 @@ Compressed length: 255
 
 * This is beta quality code. There are likely bugs.
 * The compressed length does not take into account Twitter's character weights. Expect slightly higher character counts on Twitter.
+
+## Possible Improvements
+
+* Parse the BASIC to determine what parts are case sensitive and allow case insensitive replacements where possible.
+* Attempt to optimize the BASIC code for unicode compression (for instance, change I= to Y= and update all references to I).
